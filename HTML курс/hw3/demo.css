@@ -1,20 +1,38 @@
-h1,h2 {
-    text-align: center;
-}
-h2 {
-    background: aqua; color: #977031
+body {
+    margin: 50px;
 }
 .target {
-    background: darkgreen; color: #977031
-}
-span.target {
     background: aquamarine; color: #977031
 }
-.point {
+div {
+    text-align: center;
+    background: aqua; color: #977031;
     font-size: 100px;
+    width: 2840px;
+    height: 150px;
+    padding: 10px;
+    border: 10px solid blue;
+    box-sizing: border-box;
 }
 .xxx {
-    font-size: 50px;
+    margin: 10px;
+    background: aqua; color: #977031;
+    font-size: 75px;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    border: 10px solid blue;
+    box-sizing: border-box;
+}
+p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 75px;
+    width: 1500px;
+    height: 200px;
+    border: 5px solid red;
+    box-sizing: border-box;
+    background: darkorange;
 }
 img {
     border: 10px solid cornflowerblue;
