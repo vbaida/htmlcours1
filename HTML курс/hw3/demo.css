@@ -1,0 +1,21 @@
+h1,h2 {
+    text-align: center;
+}
+h2 {
+    background: aqua; color: #977031
+}
+.target {
+    background: darkgreen; color: #977031
+}
+span.target {
+    background: aquamarine; color: #977031
+}
+.point {
+    font-size: 100px;
+}
+.xxx {
+    font-size: 50px;
+}
+img {
+    border: 10px solid cornflowerblue;
+}
