@@ -10,6 +10,7 @@ div {
     padding: 10px;
     border: 10px solid blue;
     box-sizing: border-box;
+    margin: 10px;
 }
 .xxx {
     margin: 10px;
@@ -22,12 +23,24 @@ div {
     box-sizing: border-box;
 }
 p {
+    text-align: center;
     margin: 10px;
     padding: 10px;
     font-size: 75px;
     width: 1500px;
     height: 200px;
     border: 5px solid red;
+    box-sizing: border-box;
+    background: darkorange;
+}
+.target {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 75px;
+    width: 1500px;
+    height: 200px;
+    border: 10px solid red;
     box-sizing: border-box;
     background: darkorange;
 }
