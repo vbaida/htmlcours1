@@ -1,0 +1,23 @@
+.wrap {
+  background: grey;
+    width: 1600px;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.a {
+    background: red;
+    width: 1600px;
+    height: 200px;
+}
+.b {
+    background: blue;
+    width: 300px;
+    height: 200px;
+}
+.c {
+    background: aqua;
+    width: 300px;
+    height: 200px;
+}
