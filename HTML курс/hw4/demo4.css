@@ -1,23 +1,35 @@
-.wrap {
+.xxx {
   background: grey;
     width: 1600px;
-    height: 800px;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /*align-items: stretch;*/
+    flex-wrap: wrap;
+    /*grid-column-gap: 20px;*/
 }
+
 .a {
     background: red;
     width: 1600px;
     height: 200px;
+    margin: 5px;
+
 }
 .b {
     background: blue;
-    width: 300px;
-    height: 200px;
+    width: 1240px;
+    height: 550px;
+    margin: 5px;
+    /*align-self: ;*/
+    /*flex-grow: 1;*/
+
 }
 .c {
     background: aqua;
-    width: 300px;
-    height: 200px;
+    width: 340px;
+    height: 550px;
+    margin: 5px;
+    /*flex-grow: 1;*/
 }
