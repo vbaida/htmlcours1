@@ -11,23 +11,33 @@
 }
 .post {
   background: blue;
-  width: 500px;
-  height: 200px;
+  width: 600px;
+  height: 250px;
   margin: 10px;
+  display: flex;
 }
 #header {
-  display: flex;
-  width: 800px;
-  height: 200px;
+  width: 780px;
+  height: 150px;
   background: #f0f0f0;
   margin: 10px;
+  display: flex;
 }
 #menu {
-  display: flex;
-  width: 1000px;
-  height: 1200px;
+  width: 150px;
+  height: 500px;
   background: red;
   margin: 10px;
+  display: flex;
 }
+#footer {
+  width: 780px;
+  height: 150px;
+  background: aqua;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
 
 
