@@ -1,13 +1,11 @@
 .xxx {
   background: grey;
     width: 1600px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*align-items: stretch;*/
     flex-wrap: wrap;
-    /*grid-column-gap: 20px;*/
+
 }
 
 .a {
@@ -22,14 +20,10 @@
     width: 1240px;
     height: 550px;
     margin: 5px;
-    /*align-self: ;*/
-    /*flex-grow: 1;*/
-
-}
+   }
 .c {
     background: aqua;
     width: 340px;
     height: 550px;
     margin: 5px;
-    /*flex-grow: 1;*/
-}
+ }
