@@ -1,41 +1,40 @@
 .xxx {
   background: grey;
     width: 800px;
-  height: 800px;
-    display: flex;
+  height: 950px;
   justify-content: flex-start;
+  display: flex;
   flex-wrap: wrap;
-  /*align-items: flex-end*/
-
-
+box-sizing: border-box
 }
 .post {
   background: #9A6EE1;
   width: 400px;
   height: 200px;
   margin: 10px;
-
+  display: flex;
 }
 #header {
   width: 780px;
   height: 150px;
   background: #f0f0f0;
   margin: 10px;
+  display: flex;
 }
 #menu {
   width: 150px;
-  height: 400px;
+  height: 600px;
   background: red;
   margin: 10px;
-
-
+  display: flex;
 }
 #footer {
-  width: 500px;
+  width: 770px;
   height: 150px;
   background: aqua;
   margin: 10px;
-   align-items: flex-end;
+  display: flex;
+
 }
 
 
