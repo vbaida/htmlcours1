@@ -2,17 +2,9 @@
   background: grey;
     width: 800px;
   height: 950px;
-  justify-content: flex-start;
-  display: flex;
+    display: flex;
   flex-wrap: wrap;
-box-sizing: border-box
-}
-.post {
-  background: #9A6EE1;
-  width: 400px;
-  height: 200px;
-  margin: 10px;
-  display: flex;
+
 }
 #header {
   width: 780px;
@@ -27,6 +19,16 @@ box-sizing: border-box
   background: red;
   margin: 10px;
   display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+
+}
+.post {
+  background: #9A6EE1;
+  width: 600px;
+  height: 400px;
+  margin: 10px;
+
 }
 #footer {
   width: 770px;
