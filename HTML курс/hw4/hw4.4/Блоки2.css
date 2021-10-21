@@ -5,7 +5,8 @@
   justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
-box-sizing: border-box
+box-sizing: border-box;
+
 }
 #header {
   background: #9A6EE1;
@@ -13,12 +14,13 @@ box-sizing: border-box
   height: 200px;
   margin: 2px;
   display: flex;
+  border: 10px solid cornflowerblue;
 }
 #nav {
   width: 780px;
   height: 150px;
   background: #f0f0f0;
-  margin: 2px;
+  border: 10px solid cornflowerblue;
   display: flex;
 }
 .mine {
@@ -27,14 +29,15 @@ box-sizing: border-box
   background: red;
   margin: 10px;
   display: flex;
-
+  border: 10px solid cornflowerblue;
 }
 .aside {
-  width: 250px;
+  width: 220px;
   height: 600px;
   background: aqua;
   margin: 10px;
   display: flex;
+  border: 10px solid cornflowerblue;
 
 }
 #footer {
@@ -43,6 +46,7 @@ box-sizing: border-box
   background: darkorange;
   margin: 10px;
   display: flex;
+  border: 10px solid cornflowerblue;
 }
 
 
