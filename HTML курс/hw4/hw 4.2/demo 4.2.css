@@ -1,41 +1,37 @@
 .xxx {
   background: grey;
-    width: 800px;
-  height: 950px;
+    width: 770px;
+  height: 630px;
     display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+
 
 }
 #header {
   width: 780px;
   height: 150px;
   background: #f0f0f0;
-  margin: 10px;
-  display: flex;
+
+
 }
 #menu {
   width: 150px;
-  height: 600px;
+  height: 630px;
   background: red;
-  margin: 10px;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-end;
 
 }
 .post {
   background: #9A6EE1;
   width: 600px;
-  height: 400px;
-  margin: 10px;
-
-}
+  height: 310px;
+  margin: 1px;
+ }
 #footer {
   width: 770px;
-  height: 150px;
+  height: 160px;
   background: aqua;
-  margin: 10px;
-  display: flex;
+
 
 }
 

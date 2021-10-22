@@ -2,51 +2,42 @@
   background: grey;
     width: 800px;
   height: 1200px;
-  justify-content: flex-start;
-  display: flex;
+   display: flex;
   flex-wrap: wrap;
-box-sizing: border-box;
-
 }
 #header {
   background: #9A6EE1;
   width: 780px;
   height: 200px;
   margin: 2px;
-  display: flex;
-  border: 10px solid cornflowerblue;
+   border: 10px solid cornflowerblue;
 }
 #nav {
   width: 780px;
   height: 150px;
   background: #f0f0f0;
   border: 10px solid cornflowerblue;
-  display: flex;
 }
 .mine {
   width: 500px;
   height: 600px;
   background: red;
   margin: 10px;
-  display: flex;
-  border: 10px solid cornflowerblue;
+   display: flex;
+  flex-direction: column;
 }
 .aside {
-  width: 220px;
+  width: 250px;
   height: 600px;
   background: aqua;
   margin: 10px;
-  display: flex;
-  border: 10px solid cornflowerblue;
-
 }
 #footer {
   width: 770px;
   height: 150px;
   background: darkorange;
   margin: 10px;
-  display: flex;
-  border: 10px solid cornflowerblue;
+   border: 10px solid cornflowerblue;
 }
 
 
